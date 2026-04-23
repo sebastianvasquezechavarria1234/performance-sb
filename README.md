@@ -1,5 +1,5 @@
-# 🛹 PERFORMANCE SB — TALENTO URBANO
-### *Redefiniendo la cultura del Skateboarding a través de la tecnología.*
+# 🛹 PERFORMANCE SB — URBAN TALENT
+### *Redefining Skateboarding culture through technology.*
 
 ---
 
@@ -8,106 +8,106 @@
 ![Deployment](https://img.shields.io/badge/Deployment-Docker%20%2B%20Nginx-blueviolet)
 ![License](https://img.shields.io/badge/License-Proprietary-red)
 
-## 📖 Visión General
+## 📖 Overview
 
-**Performance SB** no es solo un aplicativo; es el ecosistema digital definitivo para el **Skateboarding** en Colombia. Nacido de la necesidad de profesionalizar el talento urbano, nuestra plataforma conecta a entusiastas, aprendices y expertos bajo una infraestructura técnica de alto rendimiento.
+**Performance SB** is not just an app; it is the ultimate digital ecosystem for **Skateboarding** in Colombia. Born from the need to professionalize urban talent, our platform connects enthusiasts, learners, and experts under a high-performance technical infrastructure.
 
-Desde la gestión de entrenamientos personalizados hasta una tienda de equipos premium, Performance SB centraliza todas las herramientas necesarias para que el "skate life" escale al siguiente nivel.
+From managing personalized training sessions to a premium equipment store, Performance SB centralizes all the necessary tools for the "skate life" to scale to the next level.
 
 ---
 
-## 🚀 Módulos Principales
+## 🚀 Main Modules
 
 ### 🛒 SB Store (E-Commerce)
-Una experiencia de compra inmersiva diseñada para skaters.
-*   **Catálogo Dinámico:** Filtrado avanzado de productos y equipos.
-*   **Detalles Premium:** Visualización técnica de tablas, ejes, ruedas y accesorios.
-*   **Checkout Fluido:** Carrito de compras optimizado y gestión de pedidos en tiempo real.
+An immersive shopping experience designed for skaters.
+*   **Dynamic Catalog:** Advanced product and equipment filtering.
+*   **Premium Details:** Technical visualization of decks, trucks, wheels, and accessories.
+*   **Seamless Checkout:** Optimized shopping cart and real-time order management.
 
 ### 📅 Training & Academy
-El corazón del aprendizaje en Performance SB.
-*   **Clases Especializadas:** Reserva y seguimiento de sesiones de entrenamiento.
-*   **Eventos de Comunidad:** Calendario interactivo con competencias, jams y sesiones grupales.
-*   **Pre-inscripciones:** Sistema simplificado para unirse a la academia.
+The heart of learning at Performance SB.
+*   **Specialized Classes:** Booking and tracking of training sessions.
+*   **Community Events:** Interactive calendar with competitions, jams, and group sessions.
+*   **Pre-registration:** Simplified system for joining the academy.
 
 ---
 
-## 👥 Arquitectura de Perfiles
+## 👥 Profile Architecture
 
-La plataforma ofrece experiencias segmentadas para garantizar que cada usuario encuentre lo que necesita:
+The platform offers segmented experiences to ensure that every user finds what they need:
 
-| Perfil | Responsabilidades y Herramientas |
+| Profile | Responsibilities and Tools |
 | :--- | :--- |
-| **🎓 Estudiante** | Dashboard de progreso personal, visualización de clases programadas, historial de compras y gestión de su "Skaters Profile". |
-| **🧘‍♂️ Instructor** | Gestión de alumnos asignados, control de asistencia a clases, monitoreo de ventas de sus servicios y panel de configuración profesional. |
-| **👤 Cliente / Invitado** | Exploración de la Landing Page, acceso a la tienda, inscripción a eventos y proceso de registro simplificado. |
+| **🎓 Student** | Personal progress dashboard, scheduled class viewing, purchase history, and "Skaters Profile" management. |
+| **🧘‍♂️ Instructor** | Assigned student management, class attendance control, monitoring of service sales, and professional configuration panel. |
+| **👤 Client / Guest** | Landing Page exploration, store access, event registration, and simplified registration process. |
 
 ---
 
-## 🛠️ Stack Tecnológico (High-End)
+## 🛠️ Tech Stack (High-End)
 
-El proyecto utiliza las tecnologías más vanguardistas para asegurar una UI/UX de nivel mundial:
+The project uses the most cutting-edge technologies to ensure a world-class UI/UX:
 
 ### **Frontend Core**
-*   **React 19:** El estándar más reciente para interfaces reactivas.
-*   **Vite:** Herramienta de construcción ultra-rápida para una experiencia de desarrollo fluida.
-*   **Tailwind CSS 4:** Diseño basado en utilidades con una estética "Street & Urban".
+*   **React 19:** The latest standard for reactive interfaces.
+*   **Vite:** Ultra-fast build tool for a smooth development experience.
+*   **Tailwind CSS 4:** Utility-first design with a "Street & Urban" aesthetic.
 
-### **Interactividad y Visuals**
-*   **Framer Motion:** Animaciones fluidas que dan vida a cada scroll y click.
-*   **Lucide React:** Iconografía vectorial limpia y moderna.
-*   **Recharts:** Visualización de métricas de rendimiento y ventas.
-*   **Canvas Confetti:** Feedback visual positivo ante logros y compras.
+### **Interactivity and Visuals**
+*   **Framer Motion:** Fluid animations that bring life to every scroll and click.
+*   **Lucide React:** Clean and modern vector iconography.
+*   **Recharts:** Visualization of performance and sales metrics.
+*   **Canvas Confetti:** Positive visual feedback for achievements and purchases.
 
-### **Infraestructura y Despliegue**
-*   **Docker:** Containerización completa para portabilidad absoluta.
-*   **Nginx:** Configuración de servidor de alto rendimiento para el manejo de tráfico y seguridad.
-*   **Axios:** Consumo de servicios API con manejo avanzado de errores.
+### **Infrastructure and Deployment**
+*   **Docker:** Full containerization for absolute portability.
+*   **Nginx:** High-performance server configuration for traffic handling and security.
+*   **Axios:** API service consumption with advanced error handling.
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Project Structure
 
 ```text
 src/
-├── feactures/           # Módulos principales (Landing, Dashboards, Auth)
-│   ├── landing/         # Experiencia pública y tienda
-│   ├── dashboards/      # Paneles privados por rol (Student, Instructor)
-│   └── Auth/            # Gestión de acceso y seguridad
-├── context/             # Estados globales (Autenticación, Carrito)
-├── services/            # Lógica de comunicación con el Backend
-├── hooks/               # Hooks personalizados para lógica reutilizable
-└── utils/               # Helpers de validación, fechas y formateo
+├── features/            # Main modules (Landing, Dashboards, Auth)
+│   ├── landing/         # Public experience and store
+│   ├── dashboards/      # Role-specific private panels (Student, Instructor)
+│   └── Auth/            # Access management and security
+├── context/             # Global states (Authentication, Cart)
+├── services/            # Backend communication logic
+├── hooks/               # Custom hooks for reusable logic
+└── utils/               # Validation, date, and formatting helpers
 ```
 
 ---
 
-## ⚙️ Guía de Inicio Rápido
+## ⚙️ Quick Start Guide
 
-### Instalación Manual
-1.  **Clonar el repositorio:** `git clone https://github.com/...`
-2.  **Instalar dependencias:**
+### Manual Installation
+1.  **Clone the repository:** `git clone https://github.com/...`
+2.  **Install dependencies:**
     ```bash
     npm install
     ```
-3.  **Configurar Variables de Entorno:** Crear un archivo `.env` basado en `.env.example`.
-4.  **Ejecutar en Desarrollo:**
+3.  **Configure Environment Variables:** Create a `.env` file based on `.env.example`.
+4.  **Run in Development:**
     ```bash
     npm run dev
     ```
 
-### Despliegue con Docker
+### Deployment with Docker
 ```bash
 docker-compose up --build
 ```
 
 ---
 
-## 🛡️ Licencia y Propiedad
+## 🛡️ License and Ownership
 
-Este software es propiedad intelectual exclusiva de **Performance SB**. Queda estrictamente prohibida su reproducción total o parcial sin autorización.
+This software is the exclusive intellectual property of **Performance SB**. Any total or partial reproduction without authorization is strictly prohibited.
 
-**Equipo de Desarrollo:**
+**Development Team:**
 *   **Sebastián Vásquez Echavarria**
 *   **Emanuel González Jaramillo**
 *   **Mariana Granda**
